@@ -10,5 +10,5 @@ Steps to run this app is below:
       --- python manage.py runserver
 6) Open project in browser : 127.0.0.1:8000
 
-I have cover this steps in my blog do follow me :
+I have covered above steps in my blog do follow me :
 https://techiespb.blogspot.com/
