@@ -1,0 +1,46 @@
+
+
+<!doctype html>
+<html>
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<title>My Profile</title>
+<link rel="icon" type="image/png" href="" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<!-- Google Fonts --><link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'><!-- Custom CSS -->
+<style type="text/css">
+body  {
+  background-image: url(https://images.pexels.com/photos/3815729/pexels-photo-3815729.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-color: #cccccc;
+  background-size: 100%;
+}
+</style>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body class="home page-template page-template-template-homepage page-template-template-homepage-php page page-id-18">
+    <div id="wrapper" class="clearfix" style="margin-left:45%;margin-top:20%">
+        <div id="headerwrap">
+            <div class="container" style="color:white">
+                <div class="row">
+                    <div class="col-lg-9 col-lg-offset-3">
+                        <h4>HELLO PEOPLE, MY NAME IS</h4>
+                        <h1>{{name}}</h1>
+                        <h4>{{about}}</h4>
+                    </div>
+                </div><!-- /row -->
+            </div> <!-- /container -->
+        </div><!-- /headerwrap -->
+        <a href="{% url 'about' %}" class="btn btn-light" style="font-weight: 500;margin-top: 5%;margin-left: 2%;">Check My Full Profile</a>
+    </div><!-- end of wrapper-->
+
+</body>
+</html>
