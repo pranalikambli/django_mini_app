@@ -2,7 +2,7 @@
 This is the Django mini app for beginners.
 
 Steps to run this app is below:
-1) Clone the project.
+1) Clone or download the project.
 2) Create the virtual environment.
 3) Activate the virtual environment.
 4) Install Django using pip.
