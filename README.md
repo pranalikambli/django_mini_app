@@ -11,4 +11,4 @@ Steps to run this app is below:
 6) Open project in browser : 127.0.0.1:8000
 
 I have covered above steps in my blog do follow me :
-https://techiespb.blogspot.com/
+https://techpluslifestyle.com/
